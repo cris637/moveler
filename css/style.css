@@ -500,3 +500,44 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+
+
+/* estilos propios */
+
+.margenSuperior{
+    padding-top: 0 !important;
+}
+.paddingSuperior{
+    padding-top: 30px !important;
+}
+.termsTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgLogo{
+    width: 120px;
+    height: auto;
+}
+.appCont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.appCont div{
+    width: 14vw;
+}
+.appCont div a div p{
+    font-size: 1vw !important;
+}
+.appCont div a div h5{
+    font-size: 1.5vw !important;
+
+}
+@media (max-width: 1024px){
+    .appCont div a i{
+        display: none;
+    }
+}
