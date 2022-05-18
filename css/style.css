@@ -505,7 +505,13 @@ h6,
 
 
 /* estilos propios */
-
+.paddingSup{
+    padding-top: 150px !important;
+}
+.QRimage{
+    border-radius: 10px;
+    padding-left: 100px;
+}
 
 .margenSuperior{
     padding-top: 0 !important;
@@ -600,4 +606,16 @@ h6,
     padding: 15px;
     font-size: 25px;
     margin: 0 !important;
+}
+.headerInfo{
+    display: flex !important;
+    align-items: flex-start !important;
+}
+.userInfo{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.platform{
+    margin-top: 8px;
 }

@@ -44,7 +44,7 @@
 		<!-- Spinner End -->
 
 
-		<!-- Navbar & Hero Start -->
+		<!-- Navbar & Welcome Start -->
 		<div class="container-xxl position-relative p-0" id="home">
 			<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
 				<a href="" class="navbar-brand p-0">
@@ -68,15 +68,19 @@
 				</div>
 			</nav>
 
-			<div class="container-xxl bg-primary hero-header">
+			<div class="container-xxl bg-primary hero-header paddingSup" >
+				<!-- Welcome container -->
 				<div class="container px-lg-5">
 					<div class="row g-5">
-						<div class="col-lg-8 text-center text-lg-start">
+						<!-- First container -->
+						<div class="col-lg-8 text-center text-lg-start" >
 							<h1 class="text-white mb-4 animated slideInDown">Welcome to Show Travelers & Moveler
 							</h1>
-							<p class="text-white pb-3 animated slideInDown">Texto de presentacion</p>
+							<p class="text-white pb-3 animated slideInDown" style="color: red !important">Texto de presentacion</p>
+							<img src="img/QRM.png" alt="" class="QRimage">
 						</div>
-
+						
+						<!-- imgs container -->
 						<div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
 							data-wow-delay="0.3s">
 							<div class="owl-carousel screenshot-carousel divImg">
@@ -92,7 +96,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- Navbar & Hero End -->
+		<!-- Navbar & Welcome End -->
 
 
 		<!-- About Start -->
@@ -242,7 +246,7 @@
 		<!-- Screenshot End -->
 
 
-		<!-- Process Start -->
+		<!-- How It Works Start -->
 		<div class="container-xxl py-5">
 			<div class="container py-5 px-lg-5">
 				<div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -286,7 +290,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- Process Start -->
+		<!-- How It Works Start -->
 
 
 		<!-- Download Start -->
@@ -326,7 +330,7 @@
 		<!-- Download End -->
 
 
-		<!-- Testimonial Start -->
+		<!-- Review Start -->
 		<div class="container-xxl py-5" id="review">
 			<div class="container py-5 px-lg-5">
 				<div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -334,12 +338,18 @@
 					<h1 class="mb-5">What Say Our Users!</h1>
 				</div>
 				<div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+					<!-- Review 1 Android-->
 					<div class="testimonial-item rounded p-4">
-						<div class="d-flex align-items-center mb-4">
-							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
-								style="width: 85px; height: 85px;">
-							<div class="ms-4">
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png" style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
 								<h5 class="mb-1">Gugui Vignolo</h5>
+								<!-- Stars -->
 								<div>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
@@ -347,18 +357,30 @@
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>Android</p>
+								</div>
 							</div>
 						</div>
+						<!-- Comments -->	
 						<p class="mb-0">App infaltable para cualquier viajero cinéfilo. Tiene un montón de lugares de interés,
 							muchísimas películas de todos los géneros. La usé cuando viaje por México y conocí lugares excelentes.
 							Super recomendable.</p>
 					</div>
+
+					<!-- Review 2 IOs -->
 					<div class="testimonial-item rounded p-4">
-						<div class="d-flex align-items-center mb-4">
-							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
-								style="width: 85px; height: 85px;">
-							<div class="ms-4">
-								<h5 class="mb-1">Francisco Tomatis</h5>
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png" style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">Carolina Maggio</h5>
+								<!-- Stars -->
 								<div>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
@@ -366,18 +388,62 @@
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>iOS</p>
+								</div>
 							</div>
 						</div>
+						<!-- Comments -->	
+						<p class="mb-0">Muy buena app ! Información muy útil</p>
+					</div>
+
+					<!-- Review 3 Android -->
+					<div class="testimonial-item rounded p-4">
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
+								style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">Francisco Tomatis</h5>
+								<!-- Stars -->
+								<div>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>Android</p>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Comments -->	
 						<p class="mb-0">Para un aficionado a las movies y los viajes como soy yo, esta app me resultó grandiosa.
 							Hizo de mi viaje, un catálogo de datos e información ℹ para que cada visita sea un mundo de atracciones.
 							Recomiendo !!.</p>
 					</div>
+
+					<!-- Review 4 IOs -->
 					<div class="testimonial-item rounded p-4">
-						<div class="d-flex align-items-center mb-4">
-							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
-								style="width: 85px; height: 85px;">
-							<div class="ms-4">
-								<h5 class="mb-1">Nora Mersi</h5>
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png" style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">Majosain1</h5>
+								<!-- Stars -->
 								<div>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
@@ -385,34 +451,137 @@
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>iOS</p>
+								</div>
 							</div>
 						</div>
-						<p class="mb-0">No puedo creer que exista esta app, siempre tenia que meterme a googlear donde se habian
-							filmado las peliculas y series cuando estaba de viaje, esta app recopila todo
-							.</p>
-					</div>
+						<!-- Comments -->	
+						<p class="mb-0">Muy útil para hacer turismo!! En cualquier lugar</p>
+					</div>					
+					<!-- Review 5 Android-->
 					<div class="testimonial-item rounded p-4">
-						<div class="d-flex align-items-center mb-4">
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
 							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
 								style="width: 85px; height: 85px;">
-							<div class="ms-4">
-								<h5 class="mb-1">Marco Pontillo</h5>
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">Nora Mersi</h5>
+								<!-- Stars -->
 								<div>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
 									<small class="fa fa-star text-warning"></small>
+								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>Android</p>
+								</div>							
+							</div>
+						</div>
+						<!-- Comments -->	
+						<p class="mb-0">No puedo creer que exista esta app, siempre tenia que meterme a googlear donde se habian
+							filmado las peliculas y series cuando estaba de viaje, esta app recopila todo
+							.</p>
+					</div>
+
+					<!-- Review 6 IOs -->
+					<div class="testimonial-item rounded p-4">
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png" style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">marioventuraroca</h5>
+								<!-- Stars -->
+								<div>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>iOS</p>
+								</div>
+							</div>
+						</div>
+						<!-- Comments -->	
+						<p class="mb-0">Este es un aplicativo excepcional de lo mejor que vi en mi vida, quiero felicitar y agradecer al creador</p>
+					</div>
+
+					<!-- Review 7 Android-->
+					<div class="testimonial-item rounded p-4">
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png"
+								style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">Marco Pontillo</h5>
+								<!-- Stars -->
+								<div>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>Android</p>
 								</div>
 							</div>
 						</div>
 						<p class="mb-0">¡Una aplicación muy interesante y novedosa! Por fin puedes visitar los lugares donde se ha
 							rodeado tu peli favorita jaja Recomendada.</p>
 					</div>
+
+					<!-- Review 8 IOs -->
+					<div class="testimonial-item rounded p-4">
+
+						<!-- Header info -->
+						<div class="d-flex align-items-center mb-4 headerInfo">
+							<!-- Image -->
+							<img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial.png" style="width: 85px; height: 85px;">
+							<!-- User info -->
+							<div class="ms-4 userInfo">
+								<!-- Name -->
+								<h5 class="mb-1">ramona_11</h5>
+								<!-- Stars -->
+								<div>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+									<small class="fa fa-star text-warning"></small>
+								</div>
+								<!-- Platform -->
+								<div class="platform">
+									<p>iOS</p>
+								</div>
+							</div>
+						</div>
+						<!-- Comments -->	
+						<p class="mb-0">Muy buena aplicación para saber más acerca de nuestras películas favoritas</p>
+					</div>
+
 				</div>
 			</div>
 		</div>
-		<!-- Testimonial End -->
+		<!-- Review End -->
 
 
 		<!-- Contact Start -->
