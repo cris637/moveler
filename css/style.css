@@ -510,7 +510,7 @@ h6,
 }
 .QRimage{
     border-radius: 10px;
-    padding-left: 100px;
+    padding-left: auto;
 }
 
 .margenSuperior{
