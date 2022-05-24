@@ -505,13 +505,26 @@ h6,
 
 
 /* estilos propios */
+
+
 .paddingSup{
     padding-top: 150px !important;
 }
-.QRimage{
-    border-radius: 10px;
-    padding-left: auto;
+.divIntroduccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-20%);
 }
+.divH1{
+    width: 600px;
+}
+.divH1:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-out;
+
+}
+
 
 .margenSuperior{
     padding-top: 0 !important;
@@ -571,6 +584,7 @@ h6,
     gap: 10px;
     grid-template-columns: repeat(auto-fill, var(--cardWidth));
     justify-content: center;
+    align-items: center;
 
     
 }
@@ -618,4 +632,10 @@ h6,
 }
 .platform{
     margin-top: 8px;
+}
+
+.QRimage{
+    border-radius: 10px;
+    /* padding-left: auto;   */
+    width: 150px;
 }
