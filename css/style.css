@@ -557,7 +557,7 @@ h6,
 
 }
 @media (max-width: 1024px){
-    .appCont div a i{
+    /* .appCont div a i{ */
         display: none;
     }
 }
@@ -579,7 +579,7 @@ h6,
 
 
 /* ======= VALUES ======= */
-.cardsValues{--cardWidth:360px;  
+.cardsValues{--cardWidth: 360px;  
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fill, var(--cardWidth));
@@ -638,4 +638,13 @@ h6,
     border-radius: 10px;
     /* padding-left: auto;   */
     width: 150px;
+}
+
+.font-italica {
+    font-style: italic;
+}
+
+.peliculas {
+    /* padding-left: auto;   */
+    width: 500px ;
 }
